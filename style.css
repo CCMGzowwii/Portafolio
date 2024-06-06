@@ -20,7 +20,6 @@
 
     .about-me{
         margin: 1rem;
-        border: black solid;
     }
 
     .cards{
@@ -58,6 +57,13 @@
     .name-project{
         text-align: center;
         padding: 1rem;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
