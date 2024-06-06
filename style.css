@@ -64,6 +64,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: grey;
     }
-    
+    footer{
+        background-color: rgb(19, 19, 19);
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;  
+    }
+    i{
+        padding: 1rem;
+        font-size: 2rem;
+        color: white;
+
+    }
 }
