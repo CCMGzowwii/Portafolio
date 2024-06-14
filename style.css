@@ -10,7 +10,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 .img-me > p{
     display: flex;
@@ -78,6 +78,11 @@ a{
         
     }
 
+    .img-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width : 480px) and (max-width: 430px){
@@ -152,10 +157,11 @@ a{
         display: flex;
         background-color: #0000ff;
         padding: 1rem;
+
     }
     
     .me{
-        width: 8rem;
+        width: 10rem;
         border-radius: 1rem;
     }
 
@@ -224,6 +230,7 @@ a{
     }
     .me{
         border-radius: 1rem;
+        width: 10rem;
     }
     p{
         font-size: 2rem;
@@ -263,5 +270,6 @@ body {
     background-color: #808080;
     height:100%;
 }
+
 
 }
